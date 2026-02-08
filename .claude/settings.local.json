@@ -4,25 +4,26 @@
       "Bash(uv run:*)",
       "Bash(npm run dev:*)",
       "Bash(npm install)",
-      "Bash(copy \"C:\\\\Users\\\\vikas\\\\OneDrive\\\\Documents\\\\MY PROJECTS GITHUB\\\\text2SQL-main\\\\.env.example\" \"C:\\\\Users\\\\vikas\\\\OneDrive\\\\Documents\\\\MY PROJECTS GITHUB\\\\text2SQL-main\\\\.env\")",
       "Bash(unzip:*)",
       "Bash(pg_restore:*)",
-      "Bash(\"/c/Program Files/PostgreSQL/18/bin/pg_restore.exe\" -h localhost -U postgres -d text2sql-main -v \"C:/Users/vikas/OneDrive/Documents/MY PROJECTS GITHUB/text2SQL-main/db_backup/extracted/causal_inference\")",
-      "Bash(PGPASSWORD='HTk&v@yKG5wS^g' \"/c/Program Files/PostgreSQL/18/bin/pg_restore.exe\":*)",
-      "Bash(PGPASSWORD='HTk&v@yKG5wS^g' \"/c/Program Files/PostgreSQL/18/bin/psql.exe\":*)",
-      "Bash(PGPASSWORD='HTk&v@yKG5wS^g' \"/c/Program Files/PostgreSQL/18/bin/psql.exe\" -h localhost -U postgres -d text2sql-main -c \"\\\\d causal_inference.sales\")",
+      "Bash(\"/c/Program Files/PostgreSQL/18/bin/pg_restore.exe\":*)",
+      "Bash(\"/c/Program Files/PostgreSQL/18/bin/psql.exe\":*)",
       "Bash(.venvScriptspython.exe -m src)",
       "Bash(\".venv\\\\Scripts\\\\python.exe\" -m src)",
       "Bash(tasklist:*)",
       "Bash(findstr:*)",
       "Bash(taskkill:*)",
-      "Bash(cmd //c \"taskkill /PID 48524 /F\")",
       "Bash(\".venv\\\\Scripts\\\\python.exe\" -m uvicorn src.main:app --reload --host 0.0.0.0 --port 8000)",
       "Bash(timeout:*)",
       "Bash(\".venv\\\\Scripts\\\\python.exe\" -c \"from src.main import app; print\\(''OK''\\)\")",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git rebase:*)",
+      "Bash(GIT_EDITOR=true git rebase:*)"
     ]
   }
 }
